@@ -26,7 +26,8 @@ spec.info = [:]
         
     	fooApi.get = [:]
         	fooApi.get.tags = []
-            fooApi.get.summary = "Get a full list of products"
+            fooApi.get.title = "ABC"
+			fooApi.get.summary = "Get a full list of products"
   			fooApi.get.operationId = "doTheFoo"
              fooApi.get.consumes = [ "application/json" ]
              fooApi.get.produces = [ "application/json" ]
