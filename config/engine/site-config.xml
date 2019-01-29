@@ -1,7 +1,7 @@
 <site>
 	<!-- SPA -->
     <spa>
-    	<enabled>true</enabled>
+    	<enabled>false</enabled>
         <viewName>/templates/web/entry.ftl</viewName>
     </spa>
 
