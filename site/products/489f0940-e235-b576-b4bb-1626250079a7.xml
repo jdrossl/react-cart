@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/product</content-type>	<display-template/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>489f</objectGroupId>
+	<objectId>489f0940-e235-b576-b4bb-1626250079a7</objectId>
+	<file-name>489f0940-e235-b576-b4bb-1626250079a7.xml</file-name>
+	<style>Sphynx Tie Dye Wine T-Shirt</style>
+	<internal-name>Sphynx Tie Dye Wine T-Shirt</internal-name>
+	<title>Sphynx Tie Dye Wine T-Shirt</title>
+	<sku>10686354557628303</sku>
+	<description>GPX Poly 1</description>
+	<installments>3</installments>
+	<price>9.0</price>
+	<freeShipping>false</freeShipping>
+	<sizes>	<item>	<key>XL</key>
+	<value>XL</value>
+	</item>	<item>	<key>L</key>
+	<value>L</value>
+	</item>	<item>	<key>M</key>
+	<value>M</value>
+	</item></sizes>
+	<largeImage>/static-assets/products/images/10686354557628304_1.jpg</largeImage>
+	<smallImage>/static-assets/products/images/10686354557628304_2.jpg</smallImage>
+	<createdDate>2019-01-29T15:35:49.755Z</createdDate>
+	<createdDate_dt>2019-01-29T15:35:49.755Z</createdDate_dt>
+	<lastModifiedDate>2019-01-29T15:35:49.755Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-01-29T15:35:49.755Z</lastModifiedDate_dt>
+</component>
