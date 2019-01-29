@@ -1,9 +1,9 @@
 <site>
 	<!-- SPA -->
-    <spa>
+    <!--spa>
     	<enabled>true</enabled>
         <viewName>/templates/web/entry.ftl</viewName>
-    </spa>
+    </spa-->
 
     <filters>  
         <filter>
