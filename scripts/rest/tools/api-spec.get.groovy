@@ -20,9 +20,9 @@ spec.info = [:]
 
   spec.paths = [:]
   	
-       spec.paths["/product/products.json"] = [:]
+       spec.paths["/product/products.json?crafterSite=react-cart"] = [:]
 
-		def fooApi = spec.paths["/product/products.json"]
+		def fooApi = spec.paths["/product/products.json?crafterSite=react-cart"]
         
     	fooApi.get = [:]
         	fooApi.get.tags = []
