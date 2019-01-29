@@ -22,7 +22,7 @@ spec.info = [:]
   	
        spec.paths["/products"] = [:]
 
-		def fooApi = spec.paths["/products"]
+		def fooApi = spec.paths["/products.json"]
         
     	fooApi.get = [:]
         	fooApi.get.tags = []
