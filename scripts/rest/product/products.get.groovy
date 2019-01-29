@@ -11,6 +11,7 @@ def query = searchService.createQuery()
 def executedQuery = searchService.search(query)
 def itemsFound = executedQuery.response.numFound
 
+result.sum = 1000 + 2000
 result.products = []
 
 executedQuery.response.documents.eachWithIndex { document, idx ->
