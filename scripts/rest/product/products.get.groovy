@@ -3,10 +3,11 @@ def result = [:]
 def queryStatement = 'content-type:"/component/product"'
 
 def query = searchService.createQuery()
-    query = query.setQuery(queryStatement)
+    query.setQuery(queryStatement)
     // limit returned fields if you like
     //query.addParam("fl", "localid,sku,title,style,description,price,installments,freeShipping,sizes.item.key")
 
+	query.addParam("sort", "price desc")
 def executedQuery = searchService.search(query)
 def itemsFound = executedQuery.response.numFound
 
