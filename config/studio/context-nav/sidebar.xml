@@ -115,7 +115,7 @@
                                             <module-icon-closed>
                                               <class>fa-wifi</class>
                                             </module-icon-closed>
-                                        <path>/site/website/en/tools</path>
+                                        <path>/site/website/tools</path>
                                         <!-- showRootItem>false</showRootItem -->
                                         <onClick>preview</onClick>
                                     </params>
