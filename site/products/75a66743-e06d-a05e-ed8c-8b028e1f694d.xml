@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/product</content-type>	<display-template/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>75a6</objectGroupId>
+	<objectId>75a66743-e06d-a05e-ed8c-8b028e1f694d</objectId>
+	<style>Short Sleeve T-Shirt</style>
+	<internal-name>Short Sleeve T-Shirt</internal-name>
+	<title>Short Sleeve T-Shirt</title>
+	<sku>10412368723880253</sku>
+	<description/>
+	<installments>10</installments>
+	<price>3</price>
+	<file-name>75a66743-e06d-a05e-ed8c-8b028e1f694d.xml</file-name>
+	<freeShipping>true</freeShipping>
+	<sizes>	<item>	<key>XS</key>
+	<value>XS</value>
+	</item>	<item>	<key>S</key>
+	<value>S</value>
+	</item>	<item>	<key>M</key>
+	<value>M</value>
+	</item>	<item>	<key>ML</key>
+	<value>ML</value>
+	</item>	<item>	<key>L</key>
+	<value>L</value>
+	</item>	<item>	<key>XL</key>
+	<value>XL</value>
+	</item>	<item>	<key>XXL</key>
+	<value>XXL</value>
+	</item></sizes>
+	<largeImage>/static-assets/products/images/10412368723880252_1.jpg</largeImage>
+	<smallImage>/static-assets/products/images/10412368723880252_2.jpg</smallImage>
+	<createdDate>2019-01-29T15:46:43.463Z</createdDate>
+	<createdDate_dt>2019-01-29T15:46:43.463Z</createdDate_dt>
+	<lastModifiedDate>2019-01-29T15:46:43.463Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-01-29T15:46:43.463Z</lastModifiedDate_dt>
+</component>
