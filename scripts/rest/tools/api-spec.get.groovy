@@ -39,7 +39,7 @@ spec.info = [:]
             		fooApi.get.responses["200"].description = "List of products and related details"
                 fooApi.get.responses["404"] = [:]
             		fooApi.get.responses["404"].description = "No products were found"
-/*
+
 
     spec.paths["/article"] = [:]
 
@@ -89,5 +89,5 @@ spec.info = [:]
             		articlesApi.get.responses["200"].description = "A list of article object for the given TOPIC"
                 articlesApi.get.responses["404"] = [:]
             		articlesApi.get.responses["404"].description = "No articles not found"
-*/
+
 return spec
