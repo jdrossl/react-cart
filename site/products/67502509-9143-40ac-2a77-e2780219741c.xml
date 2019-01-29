@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/product</content-type>	<display-template/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>6750</objectGroupId>
+	<objectId>67502509-9143-40ac-2a77-e2780219741c</objectId>
+	<internal-name>Skuul</internal-name>
+	<title>Skuul</title>
+	<sku>11033926921508487</sku>
+	<description>Treino 2014</description>
+	<installments>5</installments>
+	<price>14</price>
+	<file-name>67502509-9143-40ac-2a77-e2780219741c.xml</file-name>
+	<style>Skuul</style>
+	<freeShipping>false</freeShipping>
+	<sizes>	<item>	<key>XL</key>
+	<value>XL</value>
+	</item>	<item>	<key>XXL</key>
+	<value>XXL</value>
+	</item>	<item>	<key>L</key>
+	<value>L</value>
+	</item>	<item>	<key>M</key>
+	<value>M</value>
+	</item></sizes>
+	<largeImage>/static-assets/products/images/11033926921508488_1.jpg</largeImage>
+	<smallImage>/static-assets/products/images/11033926921508488_2.jpg</smallImage>
+	<createdDate>2019-01-29T15:42:19.754Z</createdDate>
+	<createdDate_dt>2019-01-29T15:42:19.754Z</createdDate_dt>
+	<lastModifiedDate>2019-01-29T15:42:19.754Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-01-29T15:42:19.754Z</lastModifiedDate_dt>
+</component>
