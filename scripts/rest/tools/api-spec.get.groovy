@@ -14,15 +14,15 @@ spec.info = [:]
     spec.info.license.url = "http://dazzel.org/api/license"
 
   spec.host = "localhost:8080" 
-  spec.basePath = "/apix/"     
+  spec.basePath = "/api/"     
   spec.tags = []
   spec.schemes = ["http"]
 
   spec.paths = [:]
   	
-       spec.paths["/product/products"] = [:]
+       spec.paths["/product/products.json"] = [:]
 
-		def fooApi = spec.paths["/product/products"]
+		def fooApi = spec.paths["/product/products.json"]
         
     	fooApi.get = [:]
         	fooApi.get.tags = []
