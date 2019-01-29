@@ -3,7 +3,7 @@ def spec = [:]
 spec.swagger = "2.0";
 
 spec.info = [:]
-  spec.info.description = "This is a API for Dazzel content"
+  spec.info.description = "This is a API for StreetShirtz content"
   spec.info.version = "1.0.0"
   spec.info.title = "Dazzel API"
   spec.info.termsOfService = "http://dazzel.org/terms/"
@@ -14,19 +14,19 @@ spec.info = [:]
     spec.info.license.url = "http://dazzel.org/api/license"
 
   spec.host = "localhost:8080" 
-  spec.basePath = "/apix/content"     
+  spec.basePath = "/apix/"     
   spec.tags = []
   spec.schemes = ["http"]
 
   spec.paths = [:]
   	
-       spec.paths["/foo"] = [:]
+       spec.paths["/products"] = [:]
 
-		def fooApi = spec.paths["/foo"]
+		def fooApi = spec.paths["/products"]
         
     	fooApi.get = [:]
         	fooApi.get.tags = []
-            fooApi.get.summary = "A Get Based API"
+            fooApi.get.summary = "Get a full list of products"
   			fooApi.get.operationId = "doTheFoo"
              fooApi.get.consumes = [ "application/json" ]
              fooApi.get.produces = [ "application/json" ]
@@ -35,10 +35,10 @@ spec.info = [:]
 
 			fooApi.get.responses = [:]
             	fooApi.get.responses["200"] = [:]
-            		fooApi.get.responses["200"].description = "Foo :)"
+            		fooApi.get.responses["200"].description = "List of products and related details"
                 fooApi.get.responses["404"] = [:]
-            		fooApi.get.responses["404"].description = "Not so Foo :("
-
+            		fooApi.get.responses["404"].description = "No products were found"
+/*
 
     spec.paths["/article"] = [:]
 
@@ -88,5 +88,5 @@ spec.info = [:]
             		articlesApi.get.responses["200"].description = "A list of article object for the given TOPIC"
                 articlesApi.get.responses["404"] = [:]
             		articlesApi.get.responses["404"].description = "No articles not found"
-
+*/
 return spec
