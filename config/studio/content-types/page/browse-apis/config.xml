@@ -1,6 +1,6 @@
-<content-type name="/page/swaggerPage" is-wcm-type="true">
-	<label>Page - Swagger</label>
-	<form>/page/swaggerPage</form>
+<content-type name="/page/browse-apis" is-wcm-type="true">
+	<label>Page: API Browser</label>
+	<form>/page/browse-apis</form>
 	<form-path>simple</form-path>
 	<model-instance-path>NOT-USED-BY-SIMPLE-FORM-ENGINE</model-instance-path>
 	<file-extension>xml</file-extension>
@@ -10,7 +10,7 @@
 	<image-thumbnail></image-thumbnail>
 	<paths>
 		<includes>
-			<pattern>^hidden</pattern>
+			<pattern>^Hidden</pattern>
 		</includes>
 	</paths>
 </content-type>
