@@ -102,6 +102,25 @@
                                     </params>
                                 </modulehook>
 
+
+
+                                <modulehook>
+                                    <name>wcm-root-folder</name>
+                                    <showDivider>true</showDivider>
+                                    <params>
+                                        <label>Headless / APIs</label>
+                                          <module-icon-open>
+                                              <class>fa-wifi</class>
+                                            </module-icon-open>
+                                            <module-icon-closed>
+                                              <class>fa-wifi</class>
+                                            </module-icon-closed>
+                                        <path>/site/website/en/tools</path>
+                                        <!-- showRootItem>false</showRootItem -->
+                                        <onClick>preview</onClick>
+                                    </params>
+                                </modulehook>
+                                
                                 <!-- Site IA Pages -->
                                 <modulehook>
                                     <name>wcm-root-folder</name>                                    

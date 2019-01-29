@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/browse-apis</content-type>	<display-template>/templates/web/browse-apis.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>2372</objectGroupId>
+	<objectId>2372fec6-effa-b135-6580-9ed203282089</objectId>
+	<internal-name>API Browser</internal-name>
+	<file-name>index.xml</file-name>
+	<folder-name>apis</folder-name>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<createdDate>2017-11-01T17:25:06.788Z</createdDate>
+	<createdDate_dt>2017-11-01T17:25:06.788Z</createdDate_dt>
+	<lastModifiedDate>2018-05-08T15:14:39.443Z</lastModifiedDate>
+	<lastModifiedDate_dt>2018-05-08T15:14:39.443Z</lastModifiedDate_dt>
+</page>

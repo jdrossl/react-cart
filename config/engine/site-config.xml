@@ -5,6 +5,17 @@
         <viewName>/templates/web/entry.ftl</viewName>
     </spa>
 
+    <filters>  
+        <filter>
+            <script>/scripts/filters/ReverseProxy.groovy</script>
+            <mapping>
+                <include>/apix/**</include>
+            </mapping>
+        </filter>
+
+    </filters>
+
+
 	<!-- CORS Properties -->
     <cors>
         <enable>true</enable>
