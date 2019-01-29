@@ -38,6 +38,7 @@ import java.util.Enumeration
 import java.util.Formatter
 import java.util.List
 
+throw new Exception("Dddd")
 /**
  * This filter simply proxyies requests from a site to crafter social
  * Code is based on org.mitre.dsmiley.httpproxy (http://www.apache.org/licenses/LICENSE-2.0)
