@@ -7,7 +7,7 @@ def query = searchService.createQuery()
     // limit returned fields if you like
     //query.addParam("fl", "localid,sku,title,style,description,price,installments,freeShipping,sizes.item.key")
 
-	query.addParam("sort", "price desc")
+	query.addParam("sort", "price localId")
 def executedQuery = searchService.search(query)
 def itemsFound = executedQuery.response.numFound
 
