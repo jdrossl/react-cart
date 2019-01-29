@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/product</content-type>	<display-template/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>0558</objectGroupId>
+	<objectId>055820b1-dff1-8835-8815-0aff12e1d4e8</objectId>
+	<file-name>055820b1-dff1-8835-8815-0aff12e1d4e8.xml</file-name>
+	<internal-name>Wine Skul T-Shirt</internal-name>
+	<title>Wine Skul T-Shirt</title>
+	<sku>39876704341265606</sku>
+	<description/>
+	<installments>5</installments>
+	<price>75</price>
+	<style>Wine Skul T-Shirt</style>
+	<freeShipping>false</freeShipping>
+	<sizes>	<item>	<key>XS</key>
+	<value>XS</value>
+	</item>	<item>	<key>M</key>
+	<value>M</value>
+	</item>	<item>	<key>L</key>
+	<value>L</value>
+	</item>	<item>	<key>XXL</key>
+	<value>XXL</value>
+	</item>	<item>	<key>S</key>
+	<value>S</value>
+	</item>	<item>	<key>ML</key>
+	<value>ML</value>
+	</item>	<item>	<key>XL</key>
+	<value>XL</value>
+	</item></sizes>
+	<largeImage>/static-assets/products/images/39876704341265610_1.jpg</largeImage>
+	<smallImage>/static-assets/products/images/39876704341265610_2.jpg</smallImage>
+	<createdDate>2019-01-29T15:44:09.008Z</createdDate>
+	<createdDate_dt>2019-01-29T15:44:09.008Z</createdDate_dt>
+	<lastModifiedDate>2019-01-29T15:44:09.008Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-01-29T15:44:09.008Z</lastModifiedDate_dt>
+</component>
