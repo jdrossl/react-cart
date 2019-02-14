@@ -5,13 +5,13 @@
 	<objectGroupId>0558</objectGroupId>
 	<objectId>055820b1-dff1-8835-8815-0aff12e1d4e8</objectId>
 	<file-name>055820b1-dff1-8835-8815-0aff12e1d4e8.xml</file-name>
-	<internal-name>Wine Skul T-Shirt</internal-name>
+	<internal-name>Wine Skul T-Shirt DEMO 123</internal-name>
 	<title>Red Wine Skul T-Shirt DEMO 123</title>
 	<sku>39876704341265606</sku>
 	<description/>
 	<installments>5</installments>
 	<price>75</price>
-	<style>Wine Skul T-Shirt</style>
+	<style>Wine Skul T-Shirt  DEMO 123</style>
 	<freeShipping>false</freeShipping>
 	<sizes>	<item>	<key>XS</key>
 	<value>XS</value>
@@ -32,7 +32,7 @@
 	<smallImage>/static-assets/products/images/39876704341265610_2.jpg</smallImage>
 	<createdDate>2019-01-29T15:44:09.008Z</createdDate>
 	<createdDate_dt>2019-01-29T15:44:09.008Z</createdDate_dt>
-	<lastModifiedDate>2019-02-14T22:39:34.525Z</lastModifiedDate>
-	<lastModifiedDate_dt>2019-02-14T22:39:34.525Z</lastModifiedDate_dt>
+	<lastModifiedDate>2019-02-14T22:40:06.716Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-02-14T22:40:06.716Z</lastModifiedDate_dt>
 	<endorsedBy>Larry</endorsedBy>
 </component>
