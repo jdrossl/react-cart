@@ -39,12 +39,12 @@ return result
 
 
 
-def getPrice(document) {
+def getPrice(product) {
 	// simple example of abstracting where price comes from
-	return new Float(document.price)
+	return new Float(product.price)
 }
 
 def getInventory(product) {
 	def invServices = applicationContext.get("inventoryServices")
-    return invServices.getInventoryByProductId(document.sku)
+    return invServices.getInventoryByProductId(product.sku)
 }
