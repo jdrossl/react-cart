@@ -14,7 +14,7 @@ public class InventoryServices {
      * Given a productId, return an inventory level
      * Sorta :)
      */
-	int getInventoryForProductId(String id) {
+	int getInventoryByProductId(String id) {
 		return Math.abs(new Random().nextInt() % this.maxLevelCount) + 1
     }
 }
