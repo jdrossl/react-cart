@@ -45,6 +45,6 @@ def getPrice(document) {
 }
 
 def getInventory(product) {
-	def invServices = applicationContext.get("InventoryServices")
+	def invServices = applicationContext.get("inventoryServices")
     return invServices.getInventoryByProductId(document.sku)
 }
