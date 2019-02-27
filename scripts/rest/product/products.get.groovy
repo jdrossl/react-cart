@@ -44,7 +44,7 @@ def getPrice(document) {
 	return new Float(document.price)
 }
 
-def getInventory(document) {
-	// simple example of abstracting where inventory comes from
-	return new Integer(document.installments)
+def getInventory(product) {
+	def invServices = applicationContext.get("InventoryServices")
+    return invServices.getInventoryByProductId(document.sku)
 }
